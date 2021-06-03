@@ -1,0 +1,472 @@
+header.header {
+  font-size: 2px;
+}
+.b1 {
+  border-radius: 40px;
+}
+.b2 {
+  border-radius: 50%;
+}
+#s2 {
+  padding-top: 30px;
+}
+.p1 {
+  width: 18px;
+  height: 18px;
+}
+.green {
+  color: green;
+  margin-top: -2px;
+  margin-left: 5px;
+}
+.st {
+  width: 15px;
+  height: 15px;
+}
+.big {
+  font-size: 20px;
+}
+.leftarrow {
+  margin-top: -30px;
+}
+.arrow {
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.red {
+  color: red;
+  margin-top: -2px;
+  margin-left: 5px;
+}
+.p2 {
+  width: 100px;
+}
+#s5 .backgroundpic {
+  background: url(../img/image\ 30.png);
+}
+#s7 .backgroundpic1 {
+  background: url(../img/na.png);
+}
+#s8 .backgroundpic2 {
+  background: url(../img/na2.png);
+}
+#s9 .backgroundpic3 {
+  background: url(../img/na3.png);
+}
+.blue {
+  color: blue;
+}
+#s12 .apo {
+  margin-left: -10px;
+}
+#s12 .kor {
+  width: 30px;
+  height: 15px;
+}
+#s13 .jelek {
+  padding: 20px;
+  border-radius: 50px;
+  background-color: blue;
+}
+#footer {
+  min-height: 60vh;
+  color: white;
+  background-color: black;
+}
+#footer input.bg-black {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+#footer .kicsik {
+  width: 30px;
+  height: 20px;
+}
+#s5-2 .karika {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+#s5-2 .karika:hover {
+  background-color: rgb(173, 173, 173);
+  cursor: pointer;
+}
+#s4-4 {
+  background-color: rgb(255, 248, 248);
+}
+#s4-4 .feherbox {
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: white;
+}
+#s4-4 .jobbnyil1 {
+  width: 30px;
+  height: 5px;
+  margin-top: 10px;
+}
+#s5-4 {
+  background: url(../img/page4/Rectangle\ 12.png);
+  min-height: 40vh;
+}
+#s5-4 .markak {
+  width: 80px;
+  height: 80px;
+}
+#s5-2 .green1 {
+  font-size: 10px;
+  color: green;
+  margin-bottom: 5px;
+}
+#s5-2 .p1-1 {
+  width: 10px;
+  height: 10px;
+}
+#s5-2 .abs {
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+}
+#s5-2 .col2height {
+  height: 100%;
+}
+#s5-2 .brands {
+  height: 75px;
+}
+.b1 {
+  border-radius: 40px;
+}
+.icontext {
+  margin-top: 5px;
+}
+
+#s2-13,
+#s4-14 {
+  background-color: black;
+  min-height: 60vh;
+}
+#s3-13,
+#s5-15 {
+  min-height: 60vh;
+}
+#s3-13 .kiskep {
+  margin-left: -29px;
+}
+#s4-14 .kiskep {
+  margin-left: -29px;
+}
+#s5-13 .kiskep {
+  margin-left: -29px;
+}
+#s1-12 .kekvonal {
+  margin-left: -10px;
+  margin-right: 6px;
+}
+#s1-11 .kekkor {
+  margin-top: -50px;
+  margin-left: 75px;
+}
+#s1-11 .feketefelnyil {
+  width: 5px;
+  height: 5px;
+  margin-top: 10px;
+}
+#sc-1 .felnyil {
+  width: 11px;
+  height: 11px;
+}
+#sc-1 .zip {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+#sc-1 .zipbl {
+  height: 20px;
+  margin-top: 12px;
+}
+#sc-1 .smalltext {
+  font-size: 10px;
+}
+/*semantic progress bar*/
+.progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  color: lightgrey;
+}
+
+.progressbar .active {
+  color: black;
+}
+
+.progressbar li {
+  list-style-type: none;
+  font-size: 15px;
+  width: 50%;
+  float: left;
+  position: relative;
+  font-weight: 400;
+}
+
+.progressbar #account:before {
+  content: "✓";
+  color: black;
+}
+
+.progressbar #personal:before {
+  content: "2";
+  color: black;
+}
+
+.progressbar li:before {
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+  background: white;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  padding: 2px;
+}
+
+.progressbar li:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: lightgray;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  z-index: -1;
+}
+
+.progressbar li.active:before,
+.progressbar li.active:after {
+  border: 1px solid blue;
+}
+.progressbar li.inactive:before,
+.progressbar li.inactive:after {
+  border: 1px solid lightgray;
+}
+nav .two {
+  background-color: blue;
+  padding: 3px;
+  border-radius: 50%;
+  margin-bottom: 13px;
+  margin-left: -10px;
+}
+#s3 .indexleft {
+  margin-top: -20px;
+  margin-right: -15px;
+}
+#s3 .indexright {
+  margin-top: -20px;
+  margin-left: -15px;
+}
+@media only screen and (min-width: 992px) {
+  #s5 .c1 {
+    margin-top: 180px;
+  }
+  #s5 .c2 {
+    margin-top: 150px;
+  }
+  #s7 .c1 {
+    margin-top: 180px;
+  }
+  #s7 .c2 {
+    margin-top: 150px;
+  }
+  #s8 .c1 {
+    margin-top: 180px;
+  }
+  #s8 .c2 {
+    margin-top: 150px;
+  }
+  #s9 .c1 {
+    margin-top: 180px;
+  }
+  #s9 .c2 {
+    margin-top: 150px;
+  }
+  #footer .jobb {
+    text-align: right;
+  }
+  #header .jobb1 {
+    text-align: right;
+  }
+  #s4-2 .lenyil {
+    width: 15px;
+  }
+  #s4-2 .framek {
+    width: 25px;
+    height: 25px;
+  }
+  #s5-2 .felnyil {
+    width: 15px;
+    height: 15px;
+  }
+  #s1-4 .felnyil {
+    width: 11px;
+    height: 11px;
+  }
+  #s1-4 .lenyil {
+    width: 11px;
+    height: 11px;
+  }
+  #s2-4 .p2 {
+    width: 80px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 150px;
+  }
+  #s2-4 .p22 {
+    height: 30px;
+    margin-top: 20px;
+  }
+  #s2-4 .smalltext {
+    font-size: 10px;
+    padding-bottom: 10px;
+  }
+  #s2-4 .threepoints {
+    margin-left: 130px;
+    margin-top: 70px;
+  }
+  #s2-4 .moreinfo {
+    margin-top: 125px;
+  }
+  #s2-4 .moreinfo2 {
+    margin-top: 50px;
+  }
+  #s2-4 .hq2 {
+    margin-top: 150px;
+  }
+  #s3-4 {
+    background-color: black;
+    min-height: 30vh;
+  }
+  #s1-4 .aboutmarginleft {
+    margin-left: auto;
+  }
+  .mesicon {
+    margin-top: -40px;
+  }
+  .mesright {
+    text-align: right;
+    margin-right: 50px;
+  }
+  #s1-8 .regml {
+    margin-left: 50px;
+  }
+  #s1-12 .news {
+    margin-left: 40px;
+  }
+  #s2-13 .aboutml {
+    margin-left: 50px;
+  }
+  #s4-14 .aboutml {
+    margin-left: 50px;
+  }
+  #s1-14 .faqmt {
+    margin-top: 115px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #s3 .col-lg-2,
+  #s5 .col-lg-2,
+  #s7 .col-lg-2,
+  #s8 .col-lg-2,
+  #s9 .col-lg-2,
+  #s10 .col-lg-2,
+  #s11 .col-lg-2,
+  #s12 .col-lg-2,
+  #footer ul,
+  #footer .col-lg-4 {
+    text-align: center;
+  }
+  #s5-2 .col-lg-12 {
+    text-align: center;
+  }
+  #s5-2 .flexcenter {
+    display: flex;
+    justify-content: center;
+  }
+  #s1-8 .regml {
+    margin-bottom: 15px;
+  }
+  #footer .fizet {
+    margin-left: 70px;
+  }
+  #header .kozep1 {
+    text-align: center;
+  }
+  .marg-resp {
+    margin-top: 15px;
+  }
+  #s4-2 .lenyil {
+    width: 10px;
+  }
+  #s4-2 .framek {
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  #s5-2 .felnyil {
+    width: 10px;
+    height: 10px;
+  }
+  #s1-4 .lenyil {
+    width: 10px;
+  }
+  #s1-4 .felnyil {
+    width: 10px;
+    height: 10px;
+  }
+  #s2-4 .p2 {
+    width: 40px;
+    height: 20px;
+    margin-top: 10px;
+  }
+  #s2-4 .p22 {
+    height: 15px;
+    margin-top: 13px;
+  }
+  #s2-2 .pici {
+    font-size: 11px;
+  }
+  #s5-2 .col-lg-2 {
+    text-align: center;
+  }
+
+  #s3-4 {
+    background-color: black;
+    color: black;
+  }
+  footer .footerbutton {
+    margin-top: 10px;
+  }
+  #s2-4 .moreinfo {
+    text-align: center;
+  }
+  #s1-11 .ordertext {
+    text-align: center;
+    margin-top: 7px;
+  }
+  #s1-7 .contactbutton {
+    width: 100%;
+  }
+  #s1-12 .dashh5 {
+    margin-top: 20px;
+  }
+  #s2-4 .producttable {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #s1-8 .registerbutton {
+    width: 100%;
+  }
+  #sc-1 .scbutton {
+    width: 100%;
+  }
+  .mesright {
+    text-align: center;
+  }
+}
